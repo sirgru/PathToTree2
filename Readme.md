@@ -12,15 +12,16 @@ Command line options can be specified either Windows or UNIX style (slash '/' vs
 
 ### Switches: ###
 
-	-s 		Input contains status flags from hg/git status commands.\n" +
-	-c 		Color the output, which on Windows you must pipe to cmdcolor.exe," +
-	   		found here: https://github.com/jeremejevs/cmdcolor\n" +
-	-i 		Print tree with 'invisible branches', for 'light' view.\n" +
-	-l 		Print a line separator before and after the tree.\n";
+	-s 		Input contains status flags from hg/git status commands.
+	-c 		Color the output, which on Windows you must pipe to cmdcolor.exe,
+	   		found here: https://github.com/jeremejevs/cmdcolor
+	-i 		Print tree with 'invisible branches', for 'light' view.
+	-l 		Print a line separator before and after the tree.
 
 ### How do I use it? ###
 
-Windows:  
+Windows:
+* Download the archive from releases.
 * Unpack the archive and add the containing folder to your system Path.
 * Download `cmdcolor` and put it on your Path. Otherwise, remove the `/c` switch and edit the `.bat` file.
 * Call it with `PathToTree2.bat`.
